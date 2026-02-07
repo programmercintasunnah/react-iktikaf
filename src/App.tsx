@@ -1,40 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="text-center">
-        <div className="flex justify-center space-x-4 mb-8">
-          <a href="https://vite.dev" target="_blank" className="hover:opacity-80 transition-opacity">
-            <img src={viteLogo} className="h-16 w-16" alt="Vite logo" />
-          </a>
-          <a href="https://react.dev" target="_blank" className="hover:opacity-80 transition-opacity">
-            <img src={reactLogo} className="h-16 w-16 animate-spin" alt="React logo" />
-          </a>
-        </div>
-        <h1 className="text-4xl font-bold text-gray-800 mb-8">GO-Iktikaf</h1>
-        <div className="bg-white p-8 rounded-lg shadow-lg">
-          <button 
-            onClick={() => setCount((count) => count + 1)}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded transition-colors"
-          >
-            count is {count}
-          </button>
-          <p className="mt-4 text-gray-600">
-            Edit <code className="bg-gray-100 px-1 rounded">src/App.tsx</code> and save to test HMR
-          </p>
-        </div>
-        <p className="mt-8 text-gray-500 text-sm">
-          created at 6 februari 2026 17:08
-        </p>
-      </div>
-    </div>
-  )
+// App.tsx is now handled by React Router
+// This file is kept for compatibility but not used
+export default function App() {
+  return null;
 }
-
-export default App
